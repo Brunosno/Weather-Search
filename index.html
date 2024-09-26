@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="./pages/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Tempo</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="buttons">
+            <input class="text-city" placeholder="Digite o nome da cidade">
+            <button class="search" onclick="search()">
+                <img src="./img/Lupa.svg" alt="Lupa">
+            </button>
+        </div>
+
+        <div class="info-weather">
+            <h2 class="city-name">Nome da cidade</h2>
+            <span class="temp">Graus</span>
+
+            <div class="small-container">
+                <img class="img-temp" src="https://openweathermap.org/img/wn/04n.png" alt="clima-img">
+                <span class="weather">Informação do clima</span>
+            </div>
+
+            <span class="humidity">humidade</span>
+
+        </div>
+    </div>
+
+    <script src="./pages/script.js"></script>
+</body>
+
+</html>
