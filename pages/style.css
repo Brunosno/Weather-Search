@@ -95,6 +95,44 @@ body{
     margin-top: 10px;
 }
 
+@media only screen and (max-width: 1100px){
+    .container{
+        position: absolute;
+        width: 60%;
+        height: 80%;
+    }
+
+    .city-name{
+        position: absolute;
+        font-size: 2em;
+        top: 14%;
+    }
+
+    .img-temp{
+        position: absolute;
+        min-width: 300px;
+        margin-top: 50%;
+    }
+
+    .temp{
+        position: absolute;
+        font-size: larger;
+        font-size: 2em;
+        top: 50%;
+        font-weight: 700;
+    }
+
+    .humidity{
+        position: absolute;
+        top: 70%;
+    }
+
+    .weather{
+        position: absolute;
+        top: 80%;
+    }
+}
+
 @media only screen and (max-width: 600px){
     .container{
         position: absolute;
